@@ -1,1 +1,24 @@
 UIViewController
+
+
+*************** Life-Cycle ******************
+* alloc
+* initWithNibName:bundle
+* initWithCoder
+
+* loadView
+* viewDidLoad
+* viewWillAppear
+* viewDidAppear
+
+
+************** root View *****************
+@property (nonatomic, strong) UIView *veiw;
+var view: UIView! { get set }
+
+when access view property but its value is nil, 
+  -> the view controller auto calls the loadView() method and returns the resulting view.
+  
+  
+  
+  
