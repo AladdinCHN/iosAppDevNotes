@@ -23,3 +23,9 @@ when access the view property but its value is nil,
   
   
   
+//**************** Container View Controller **************
+- (void)addChildViewController:(UIViewController *)childViewCtroller;
+- (void)removeFromParentViewController;
+- (void)willMoveToParentViewController:(UIViewController *)parent;
+- (void)didMoveToParentViewController:(UIViewController *)parent;
+
