@@ -16,8 +16,9 @@ UIViewController
 @property (nonatomic, strong) UIView *veiw;
 var view: UIView! { get set }
 
-when access view property but its value is nil, 
-  -> the view controller auto calls the loadView() method and returns the resulting view.
+when access the view property but its value is nil, 
+  -> the view controller auto calls the loadView() method 
+  -> and returns the resulting view/assign the view to the resulting view.
   
   
   
