@@ -8,8 +8,16 @@ UIResponder
 3. Event Types
     -> Touch Event 
     -> Movition Event
-    -> 
+    -> Press Event
     -> Remote Control Event 
     -> ...
 //********** Main Subclass of UIResponder *************
-4. subclass: UIView / UIViewController / UIApplication
+4. subclass
+    -> UIView/UIWindow
+    -> UIViewController
+    -> UIApplication
+
+//********** Responder Chain ********************
+@property (nullable, nonatomic, ) UIResponder *nextResponder;
+var next: UIResponder? 
+
