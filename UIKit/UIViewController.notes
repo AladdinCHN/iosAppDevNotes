@@ -29,3 +29,5 @@ when access the view property but its value is nil,
 - (void)willMoveToParentViewController:(UIViewController *)parent;
 - (void)didMoveToParentViewController:(UIViewController *)parent;
 
+
+IBOutlet connect views that will be modified in the view controller.
